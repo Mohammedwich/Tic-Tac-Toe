@@ -16,7 +16,7 @@ using  Board3x3 = std::array < std::array<char, 3>, 3>;
 int currentPlayer = 1;
 int lastPlayer = 2;
 
-//used to translate choice into a pair for use in functions
+//used to translate choice into a pair(coordinates) for use in functions
 std::array<std::pair<int, int>, 9> squares = { std::make_pair(0,0), std::make_pair(0,1), std::make_pair(0,2), std::make_pair(1,0), std::make_pair(1,1),
 									std::make_pair(1,2), std::make_pair(2,0), std::make_pair(2,1), std::make_pair(2,2) };
 
